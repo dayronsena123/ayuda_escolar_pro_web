@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>Contacto | Ayuda Escolar Pro</title>
+    <meta name="description" content="Contáctanos al instante por WhatsApp o mediante nuestras redes oficiales. Cotiza tus tareas escolares o páginas web hoy mismo.">
+    <meta name="keywords" content="contacto, WhatsApp, Facebook, TikTok, GitHub, Ayuda Escolar Pro">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body style="--neon-theme-color: var(--neon-purple);">
+
+    <!-- Grid and Glowing Orbs Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow-orb orb-1"></div>
+    <div class="bg-glow-orb orb-3"></div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/51917584421" target="_blank" class="floating-whatsapp" aria-label="Contacto directo por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ==========================================
+       NAVBAR
+       ========================================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo-container">
+                <img src="assets/img/logo.jpg" alt="Ayuda Escolar Pro Logo" class="logo-img">
+                <span class="logo-text">AyudaEscolar<span class="logo-highlight">Pro</span></span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="tareas.html" class="nav-link">Servicios Académicos</a></li>
+                <li><a href="desarrollo.html" class="nav-link">Desarrollo Web</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <a href="https://wa.me/51917584421" target="_blank" class="btn nav-btn-header" style="background: linear-gradient(90deg, var(--neon-purple), var(--neon-cyan)); box-shadow: var(--glow-purple);">
+                <i class="fab fa-whatsapp"></i> Contactar
+            </a>
+
+            <div class="menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================================
+       PAGE HEADER
+       ========================================== -->
+    <header class="page-header">
+        <div class="container">
+            <span class="section-tag pink" style="color:var(--neon-purple); border-color:rgba(112, 0, 255, 0.1); background:rgba(112, 0, 255, 0.05); text-shadow:0 0 10px rgba(112,0,255,0.3)">Atención Inmediata</span>
+            <h1>Ponte en Contacto</h1>
+            <p>Cotiza de forma gratuita. Respondemos al instante por WhatsApp para resolver tus dudas de tareas o desarrollo web.</p>
+        </div>
+    </header>
+
+    <!-- ==========================================
+       CONTACT GRID MAIN
+       ========================================== -->
+    <section style="padding-top: 20px;">
+        <div class="container">
+            <div class="contact-grid-main">
+                
+                <!-- Info cards stack (Left) -->
+                <div class="info-cards-stack">
+                    <!-- WhatsApp card -->
+                    <div class="card-glass contact-card-v2">
+                        <div class="icon-box-v2"><i class="fab fa-whatsapp"></i></div>
+                        <div class="info-text-v2">
+                            <h4>WhatsApp Directo</h4>
+                            <p>Cotizaciones y soporte inmediato:</p>
+                            <a href="https://wa.me/51917584421" target="_blank" style="color:var(--neon-cyan); font-weight:700;">+51 917 584 421</a>
+                        </div>
+                    </div>
+
+                    <!-- Social network list -->
+                    <div class="card-glass socials-block-v2">
+                        <h3>Nuestras Redes Oficiales</h3>
+                        <div class="socials-grid-v2">
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/51917584421" target="_blank" class="social-btn-v2 social-wsp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            <!-- Facebook -->
+                            <a href="https://web.facebook.com/profile.php?id=61577734536466" target="_blank" class="social-btn-v2 social-fb">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <!-- TikTok -->
+                            <a href="https://www.tiktok.com/@futboll_25" target="_blank" class="social-btn-v2 social-tt">
+                                <i class="fab fa-tiktok"></i>
+                                <span>TikTok</span>
+                            </a>
+                            <!-- GitHub -->
+                            <a href="https://github.com/dayronsena123" target="_blank" class="social-btn-v2 social-gh">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact form panel (Right) -->
+                <div class="card-glass contact-form-card" style="border-color: rgba(112,0,255,0.15)">
+                    <h3>Enviar una Consulta</h3>
+                    <form id="contact-form">
+                        <div class="form-group-custom" style="margin-bottom: 20px;">
+                            <label for="form-name">Nombre Completo:</label>
+                            <input type="text" id="form-name" class="form-input-custom" placeholder="Ingresa tu nombre" required style="border-color: rgba(255,255,255,0.08);">
+                        </div>
+                        
+                        <div class="form-group-custom" style="margin-bottom: 20px;">
+                            <label for="form-contact">Celular o Correo de Contacto:</label>
+                            <input type="text" id="form-contact" class="form-input-custom" placeholder="Ej: +51 999 999 999 / correo@ejemplo.com" required style="border-color: rgba(255,255,255,0.08);">
+                        </div>
+
+                        <div class="form-group-custom" style="margin-bottom: 24px;">
+                            <label for="form-message">¿Qué proyecto o tarea deseas realizar?</label>
+                            <textarea id="form-message" class="form-input-custom" rows="5" placeholder="Describe los detalles de tu tarea académica (Canva, ejercicios matemáticos) o la página web que deseas crear para tu negocio..." required style="resize:none; border-color: rgba(255,255,255,0.08);"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; font-size:1rem; background: linear-gradient(90deg, var(--neon-purple), var(--neon-cyan)); box-shadow: var(--glow-purple);">
+                            <i class="fab fa-whatsapp"></i> Iniciar Chat en WhatsApp
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       FOOTER
+       ========================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="assets/img/logo.jpg" alt="Logo Ayuda Escolar Pro" style="width:36px; height:36px; border-radius:50%; border:1.5px solid var(--neon-cyan)">
+                    <span class="logo-text" style="font-size:1.1rem">AyudaEscolar<span class="logo-highlight">Pro</span></span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="tareas.html">Servicios Académicos</a>
+                    <a href="desarrollo.html">Desarrollo Web</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ayuda Escolar Pro. Todos los derechos reservados. Diseñado y programado para el éxito comercial y escolar.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

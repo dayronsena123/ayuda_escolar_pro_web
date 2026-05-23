@@ -1,0 +1,19 @@
+{
+  "name": "ayuda-escolar-pro-workspace",
+  "version": "1.0.0",
+  "description": "Workspace Full-Stack corporativo para Ayuda Escolar Pro",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "start:frontend": "npx -y browser-sync start --server frontend --files \"frontend/**/*\"",
+    "dev": "npm run start:backend"
+  },
+  "keywords": [
+    "fullstack",
+    "ayuda-escolar",
+    "webdev"
+  ],
+  "author": "Dayron Sena",
+  "license": "ISC"
+}

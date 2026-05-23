@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environments & Local database files (optional to ignore database in production, but let's keep database for local mock)
+# database/db_mock.json
+backend/node_modules/

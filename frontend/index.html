@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>Ayuda Escolar Pro | Tareas y Desarrollo Web Premium</title>
+    <meta name="description" content="Ayuda Escolar Pro: Soluciones académicas profesionales (diapositivas, matemáticas, ensayos) y desarrollo web premium a medida (landing pages, hoteles, restaurantes).">
+    <meta name="keywords" content="Ayuda Escolar, Tareas Escolares, Canva, Diapositivas, Ensayos, Matemáticas, Desarrollo Web, Portafolio, Hotel Dubai, Rico Pez, Lennin Sorteos">
+    
+    <!-- Open Graph (Facebook) -->
+    <meta property="og:title" content="Ayuda Escolar Pro | Tareas y Desarrollo Web Premium">
+    <meta property="og:description" content="Soluciones académicas y portafolio de desarrollo web profesional con estilo neón premium.">
+    <meta property="og:image" content="assets/img/logo.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+    <!-- Grid and Glowing Orbs Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow-orb orb-1"></div>
+    <div class="bg-glow-orb orb-2"></div>
+    <div class="bg-glow-orb orb-3"></div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/51917584421" target="_blank" class="floating-whatsapp" aria-label="Contacto directo por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ==========================================
+       NAVBAR
+       ========================================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo-container">
+                <img src="assets/img/logo.jpg" alt="Ayuda Escolar Pro Logo" class="logo-img">
+                <span class="logo-text">AyudaEscolar<span class="logo-highlight">Pro</span></span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="tareas.html" class="nav-link">Servicios Académicos</a></li>
+                <li><a href="desarrollo.html" class="nav-link">Desarrollo Web</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <a href="https://wa.me/51917584421" target="_blank" class="btn nav-btn-header">
+                <i class="fab fa-whatsapp"></i> Contactar
+            </a>
+
+            <div class="menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================================
+       HERO PORTAL SECTION
+       ========================================== -->
+    <header class="hero-split-container">
+        <div class="container">
+            <div class="home-intro">
+                <span class="home-tag">Soluciones Digitales & Académicas</span>
+                <h1 class="home-title">Ayuda Escolar y <span>Desarrollo Web</span></h1>
+                <p class="home-description">
+                    ¿Necesitas auxilio con tus tareas del colegio o la universidad? ¿O buscas digitalizar tu emprendimiento con una página web moderna? Elige la solución que necesitas a continuación.
+                </p>
+            </div>
+
+            <!-- Interative Split Grid -->
+            <div class="split-grid">
+                <!-- Academic Card (Pink Theme) -->
+                <div class="card-glass split-card card-academic" onclick="window.location.href='tareas.html'">
+                    <div class="split-card-bg"></div>
+                    <div>
+                        <div class="split-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h2 class="split-title">Servicios Académicos</h2>
+                        <p class="split-desc">
+                            Resolución de problemas de matemáticas, física, diseño de diapositivas interactivas en Canva, infografías, ensayos e informes con entregas rápidas y de altísima calidad.
+                        </p>
+                    </div>
+                    <a href="tareas.html" class="btn btn-primary" style="align-self: flex-start; padding: 12px 24px;">
+                        Ver Servicios Académicos <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Web Development Card (Cyan Theme) -->
+                <div class="card-glass split-card card-webdev" onclick="window.location.href='desarrollo.html'">
+                    <div class="split-card-bg"></div>
+                    <div>
+                        <div class="split-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h2 class="split-title">Desarrollo Web</h2>
+                        <p class="split-desc">
+                            Páginas web a medida para emprendimientos, cevicherías, hoteles y portafolios personales. Sitios modernos, veloces y 100% responsivos para vender más en internet.
+                        </p>
+                    </div>
+                    <a href="desarrollo.html" class="btn btn-cyan" style="align-self: flex-start; padding: 12px 24px;">
+                        Explorar Portafolio <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Trust Stats Bar -->
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <h3>150+</h3>
+                    <p>Tareas Entregadas</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3</h3>
+                    <p>Sitios Web en Vivo</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Clientes Satisfechos</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Contacto WhatsApp</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+       TESTIMONIALS SECTION
+       ========================================== -->
+    <section id="testimonios" style="border-top: 1px solid rgba(255, 255, 255, 0.02); padding: 80px 0;">
+        <div class="container">
+            <div class="section-header" style="margin-bottom: 50px;">
+                <span class="section-tag pink" style="color:var(--neon-pink); text-shadow:0 0 10px rgba(255,0,127,0.3)">Opiniones</span>
+                <h2 class="section-title" style="font-size:2.2rem; text-align:center;">¿Qué Dicen Nuestros Clientes?</h2>
+            </div>
+
+            <div class="testimonials-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                <!-- Testimonial 1 -->
+                <div class="card-glass testimonial-card" style="padding: 30px;">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"Hicieron unas diapositivas en Canva impecables para mi exposición. La presentación fue sumamente limpia y llamativa. ¡Saqué la nota más alta!"</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar-placeholder">MA</div>
+                        <div class="user-info">
+                            <h4>Mateo Alva</h4>
+                            <span>Estudiante de Secundaria</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-glass testimonial-card" style="padding: 30px;">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"La velocidad de entrega fue increíble. Cotizé un ensayo universitario complejo con poco tiempo de anticipación y cumplieron perfectamente con todo."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar-placeholder pink">SR</div>
+                        <div class="user-info">
+                            <h4>Sofía Rodríguez</h4>
+                            <span>Estudiante Universitaria</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-glass testimonial-card" style="padding: 30px;">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <p class="testimonial-text">"Desarrolló nuestra web del restaurante súper rápido, el diseño de la cevichería Rico Pez quedó brutal y es muy amigable en celulares."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar-placeholder" style="background:linear-gradient(135deg, var(--neon-cyan), var(--neon-purple))">RP</div>
+                        <div class="user-info">
+                            <h4>Administración</h4>
+                            <span>Cevichería Rico Pez</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       FOOTER
+       ========================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="assets/img/logo.jpg" alt="Logo Ayuda Escolar Pro" style="width:36px; height:36px; border-radius:50%; border:1.5px solid var(--neon-cyan)">
+                    <span class="logo-text" style="font-size:1.1rem">AyudaEscolar<span class="logo-highlight">Pro</span></span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="tareas.html">Servicios Académicos</a>
+                    <a href="desarrollo.html">Desarrollo Web</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ayuda Escolar Pro. Todos los derechos reservados. Diseñado y programado para el éxito comercial y escolar.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript Logic -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
